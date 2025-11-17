@@ -1,5 +1,6 @@
 import React from 'react'
 import ministryLogo from '../assets/ministryLogo.png'
+import { Link } from 'react-router-dom'
 
 const LandingPage = () => {
   return (
@@ -24,7 +25,8 @@ const LandingPage = () => {
 
       {/* Arrow */}
       <div className="mb-4">
-        <span className="text-[60px] text-blue-600">↓</span>
+       <Link to="/login"><span className="text-[60px] text-blue-600">↓</span></Link>
+        
       </div>
 
       {/* Bottom curved section */}
